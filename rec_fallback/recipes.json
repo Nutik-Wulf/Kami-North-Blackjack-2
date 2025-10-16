@@ -1,0 +1,397 @@
+{
+	"essences":
+	[
+		"wr",
+		"gd",
+		"fr",
+		"wd",
+		"ic",
+		"th",
+		"sl",
+		"gr"
+	],
+
+	"recipes": 
+	[
+		{
+			"powerup": "Mega Water",
+			"essences": ["wr","wr","wr"]
+		},
+		{
+			"powerup": "Mega Ground",
+			"essences": ["gd","gd","gd"]
+		},
+		{
+			"powerup": "Mega Fire",
+			"essences": ["fr","fr","fr"]
+		},
+		{
+			"powerup": "Mega Wind",
+			"essences": ["wd","wd","wd"]
+		},
+		{
+			"powerup": "Mega Ice",
+			"essences": ["ic","ic","ic"]
+		},
+		{
+			"powerup": "Mega Thunder",
+			"essences": ["th","th","th"]
+		},
+		{
+			"powerup": "Mega Soul",
+			"essences": ["sl","sl","sl"]
+		},
+		{
+			"powerup": "Mega Grass",
+			"essences": ["gr","gr","gr"]
+		},
+		{
+			"powerup": "Add 1",
+			"essences": ["wr","gd","wr"]
+		},
+		{
+			"powerup": "Add 2",
+			"essences": ["wr","gd","wr","wr"]
+		},
+		{
+			"powerup": "Add 3",
+			"essences": ["wr","gd","wr","wr","wr"]
+		},
+		{
+			"powerup": "Sub 1",
+			"essences": ["gd","wr","gd"]
+		},
+		{
+			"powerup": "Sub 2",
+			"essences": ["gd","wr","gd","gd"]
+		},
+		{
+			"powerup": "Sub 3",
+			"essences": ["gd","wr","gd","gd","gd"]
+		},
+		{
+			"powerup": "Clairvoyance",
+			"essences": ["wd","gd","wd"]
+		},
+		{
+			"powerup": "Clairvoyance",
+			"essences": ["gd","wd","gd"]
+		},
+		{
+			"powerup": "Gimme",
+			"essences": ["wd","wr","wd"]
+		},
+		{
+			"powerup": "Gimme",
+			"essences": ["wr","wd","wr"]
+		},
+		{
+			"powerup": "Blade",
+			"essences": ["ic","gr","ic"]
+		},
+		{
+			"powerup": "Blade",
+			"essences": ["gr","ic","gr"]
+		},
+		{
+			"powerup": "Cube",
+			"essences": ["ic","wr","ic"]
+		},
+		{
+			"powerup": "Cube",
+			"essences": ["wr","ic","wr"]
+		},
+		{
+			"powerup": "Split Anyway",
+			"essences": ["ic","wd","ic"]
+		},
+		{
+			"powerup": "Split Anyway",
+			"essences": ["wd","ic","wd"]
+		},
+		{
+			"powerup": "PvP Add 1",
+			"essences": ["fr","wr","fr"]
+		},
+		{
+			"powerup": "PvP Add 1",
+			"essences": ["wr","fr","wr"]
+		},
+		{
+			"powerup": "PvP Add 2",
+			"essences": ["fr","wr","fr","fr"]
+		},
+		{
+			"powerup": "PvP Add 3",
+			"essences": ["fr","wr","fr","fr","fr"]
+		},
+		{
+			"powerup": "PvP Sub 1",
+			"essences": ["fr","gd","fr"]
+		},
+		{
+			"powerup": "PvP Sub 1",
+			"essences": ["gd","fr","gd"]
+		},
+		{
+			"powerup": "PvP Sub 2",
+			"essences": ["fr","gd","fr","fr"]
+		},
+		{
+			"powerup": "PvP Sub 3",
+			"essences": ["fr","gd","fr","fr","fr"]
+		},
+		{
+			"powerup": "Try Again",
+			"essences": ["fr","wd","fr"]
+		},
+		{
+			"powerup": "Try Again",
+			"essences": ["wd","fr","wd"]
+		},
+		{
+			"powerup": "Snowflake",
+			"essences": ["fr","ic","fr"]
+		},
+		{
+			"powerup": "Snowflake",
+			"essences": ["ic","fr","ic"]
+		},
+		{
+			"powerup": "Free Hand",
+			"essences": ["wr","wd","wr","wd","wr","fr"]
+		},
+		{
+			"powerup": "+-1",
+			"essences": ["wr","gd","wr","gd"]
+		},
+		{
+			"powerup": "Redraw",
+			"essences": ["wd","wr","wd","wr"]
+		},
+		{
+			"powerup": "Trash Can",
+			"essences": ["gd","wd","gd","wd"]
+		},
+		{
+			"powerup": "1/2",
+			"essences": ["ic","ic","gd","wd"]
+		},
+		{
+			"powerup": "3/2",
+			"essences": ["ic","ic","wr","wd"]
+		},
+		{
+			"powerup": "Force Hit",
+			"essences": ["fr","wr","fr","wr"]
+		},
+		{
+			"powerup": "Force Stand",
+			"essences": ["fr","gd","fr","gd"]
+		},
+		{
+			"powerup": "Robbery",
+			"essences": ["fr","gd","fr","gd"]
+		},
+		{
+			"powerup": "Repeat",
+			"essences": ["fr","wr","wd","gd"]
+		},
+		{
+			"powerup": "Shield",
+			"essences": ["ic","ic","ic","fr"]
+		},
+		{
+			"powerup": "Ace",
+			"essences": ["wd","ic","wr","ic","wd"]
+		},
+		{
+			"powerup": "Face",
+			"essences": ["wd","ic","gd","ic","wd"]
+		},
+		{
+			"powerup": "Broken +1",
+			"essences": ["th","wr","th"]
+		},
+		{
+			"powerup": "Broken +1",
+			"essences": ["wr","th","wr"]
+		},
+		{
+			"powerup": "Broken -1",
+			"essences": ["th","gd","th"]
+		},
+		{
+			"powerup": "Broken -1",
+			"essences": ["gd","th","gd"]
+		},
+		{
+			"powerup": "Card Link",
+			"essences": ["th","wd","th"]
+		},
+		{
+			"powerup": "Card Link",
+			"essences": ["wd","th","wd"]
+		},
+		{
+			"powerup": "Zap",
+			"essences": ["th","fr","th"]
+		},
+		{
+			"powerup": "Zap",
+			"essences": ["fr","th","fr"]
+		},
+		{
+			"powerup": "Double +1",
+			"essences": ["th","wr","th","wr"]
+		},
+		{
+			"powerup": "Double -1",
+			"essences": ["th","gd","th","gd"]
+		},
+		{
+			"powerup": "Card Swap",
+			"essences": ["th","wd","th","wd"]
+		},
+		{
+			"powerup": "Mirror",
+			"essences": ["th","fr","th","fr"]
+		},
+		{
+			"powerup": "Forward",
+			"essences": ["th","wd","fr","th"]
+		},
+		{
+			"powerup": "Absorb",
+			"essences": ["th","wr","gd","th"]
+		},
+		{
+			"powerup": "Chain Shield",
+			"essences": ["th","ic","fr","ic","th"]
+		},
+		{
+			"powerup": "Swap Hands",
+			"essences": ["th","fr","wd","fr","th"]
+		},
+		{
+			"powerup": "Lift",
+			"essences": ["sl","wr","sl"]
+		},
+		{
+			"powerup": "Lift",
+			"essences": ["wr","sl","wr"]
+		},
+		{
+			"powerup": "Dig",
+			"essences": ["sl","gd","sl"]
+		},
+		{
+			"powerup": "Dig",
+			"essences": ["gd","sl","gd"]
+		},
+		{
+			"powerup": "Double Check",
+			"essences": ["sl","wd","sl"]
+		},
+		{
+			"powerup": "Double Check",
+			"essences": ["wd","sl","wd"]
+		},
+		{
+			"powerup": "Bubble",
+			"essences": ["sl","fr","sl"]
+		},
+		{
+			"powerup": "Bubble",
+			"essences": ["fr","sl","fr"]
+		},
+		{
+			"powerup": "Player Add 1",
+			"essences": ["sl","wr","sl","th","sl"]
+		},
+		{
+			"powerup": "Player Sub 1",
+			"essences": ["sl","gd","sl","th","sl"]
+		},
+		{
+			"powerup": "Baton Pass",
+			"essences": ["sl","wd","sl","fr","sl"]
+		},
+		{
+			"powerup": "Linked List",
+			"essences": ["sl","wd","sl","th","sl"]
+		},
+		{
+			"powerup": "Manifest",
+			"essences": ["sl","fr","sl","fr","sl","wr"]
+		},
+		{
+			"powerup": "Deconstruct",
+			"essences": ["sl","ic","sl","ic","sl","gd"]
+		},
+		{
+			"powerup": "Truce",
+			"essences": ["sl","ic","sl","ic","sl","fr"]
+		},
+		{
+			"powerup": "Collaboration",
+			"essences": ["sl","fr","wr","wd","gd","th"]
+		},
+		{
+			"powerup": "Double Up",
+			"essences": ["gr","wr","gr"]
+		},
+		{
+			"powerup": "Double Up",
+			"essences": ["wr","gr","wr"]
+		},
+		{
+			"powerup": "Harvest",
+			"essences": ["gr","gd","gr"]
+		},
+		{
+			"powerup": "Harvest",
+			"essences": ["gd","gr","gd"]
+		},
+		{
+			"powerup": "Breeze",
+			"essences": ["gr","wd","gr"]
+		},
+		{
+			"powerup": "Breeze",
+			"essences": ["wd","gr","wd"]
+		},
+		{
+			"powerup": "Solemn Ash",
+			"essences": ["gr","fr","gr"]
+		},
+		{
+			"powerup": "Solemn Ash",
+			"essences": ["fr","gr","fr"]
+		},
+		{
+			"powerup": "Bloom",
+			"essences": ["gd","gr","gr","wr"]
+		},
+		{
+			"powerup": "Storm",
+			"essences": ["wd","gr","gr","th"]
+		},
+		{
+			"powerup": "Pocket Change",
+			"essences": ["ic","gr","gr","wr"]
+		},
+		{
+			"powerup": "Whispers",
+			"essences": ["sl","gr","gr","wd","wd"]
+		},
+		{
+			"powerup": "Insurance",
+			"essences": ["ic","gr","gr","wr","ic"]
+		},
+		{
+			"powerup": "Net",
+			"essences": ["gr","ic","gd","ic","wr","ic","gr"]
+		}
+	]
+}
