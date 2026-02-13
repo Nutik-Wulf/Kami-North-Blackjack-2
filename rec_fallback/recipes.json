@@ -87,11 +87,11 @@
 		},
 		{
 			"powerup": "Blade",
-			"essences": ["ic","gr","ic"]
+			"essences": ["ic","gd","ic"]
 		},
 		{
 			"powerup": "Blade",
-			"essences": ["gr","ic","gr"]
+			"essences": ["gd","ic","gd"]
 		},
 		{
 			"powerup": "Cube",
@@ -191,7 +191,7 @@
 		},
 		{
 			"powerup": "Robbery",
-			"essences": ["fr","gd","fr","gd"]
+			"essences": ["fr","wd","fr","wd"]
 		},
 		{
 			"powerup": "Repeat",
