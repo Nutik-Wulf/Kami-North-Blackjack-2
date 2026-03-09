@@ -8,3 +8,5 @@ Contained within this repo is primarily all custom assets currently in use for m
 Almost all artwork was made using [Aseprite](https://www.aseprite.org/) and [Krita](https://krita.org/en/).
 The background renders were made using [Bryce 7](https://www.daz3d.com/bryce-7-pro).
 Custom models were made using [Blender](https://www.blender.org/).
+
+![Screenshot of gameplay](https://github.com/Nutik-Wulf/Kami-North-Blackjack-2/blob/200d90be34b53d7c0e2ea785ca0d2dfd1e78ec51/uniq/preview.jpg)
