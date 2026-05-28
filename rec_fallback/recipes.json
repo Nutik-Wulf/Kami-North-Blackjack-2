@@ -290,19 +290,19 @@
 			"essences": ["gd","sl","gd"]
 		},
 		{
-			"powerup": "Double Check",
+			"powerup": "Shuffle",
 			"essences": ["sl","wd","sl"]
 		},
 		{
-			"powerup": "Double Check",
+			"powerup": "Shuffle",
 			"essences": ["wd","sl","wd"]
 		},
 		{
-			"powerup": "Bubble",
+			"powerup": "Double Check",
 			"essences": ["sl","fr","sl"]
 		},
 		{
-			"powerup": "Bubble",
+			"powerup": "Double Check",
 			"essences": ["fr","sl","fr"]
 		},
 		{
@@ -392,6 +392,30 @@
 		{
 			"powerup": "Net",
 			"essences": ["gr","ic","gd","ic","wr","ic","gr"]
+		},
+		{
+			"powerup": "Clone Hand",
+			"essences": ["th","fr","th","wr","th","wd","th"]
+		},
+		{
+			"powerup": "Vortex",
+			"essences": ["sl","th","sl","th","sl","fr"]
+		},
+		{
+			"powerup": "Daring Dance",
+			"essences": ["fr","wr","fr","ic","fr"]
+		},
+		{
+			"powerup": "Sacrifice",
+			"essences": ["th","fr","wd","fr","th"]
+		},
+		{
+			"powerup": "Fourpeat",
+			"essences": ["ic","th","sl","gr"]
+		},
+		{
+			"powerup": "Me Draw",
+			"essences": ["wd","wr","wd","wr","wd","wr","wd"]
 		}
 	]
 }
