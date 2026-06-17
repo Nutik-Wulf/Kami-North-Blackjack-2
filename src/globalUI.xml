@@ -1,0 +1,190 @@
+<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->
+
+<Defaults>
+    <Panel color="#00000000" />
+    <Text fontStyle="bold" color="#eeeeee" fontSize="18" outline="#000000" outlineSize="2 2" alignment="MiddleRight" />
+    <Text class="sub" color="#aaaaaa" />
+    <Text class="head" fontSize="22" />
+    <ProgressBar color="#00000033" showPercentageText="false" />
+</Defaults>
+
+<!-- ADMIN: Bounty Board Control -->
+<Panel
+    visibility="Black"
+    width="32"
+    height="96"
+    rectAlignment="LowerRight"
+    offsetXY="-400 205"
+    >
+    <VerticalLayout>
+        <Button
+            onClick="toggleGoldBounty">1</Button>
+        <Button
+            onClick="toggleSilverBounty">2</Button>
+        <Button
+            onClick="toggleBronzeBounty">3</Button>
+    </VerticalLayout>
+    </Panel>
+
+<!-- BGM & Version -->
+<Panel
+    height="36"
+    width="1000"
+    rectAlignment="UpperCenter"
+    offsetXY="0 -90"
+    >
+    <Text
+        id="playing"
+        text="Loading..."
+        alignment="MiddleCenter"
+        color="#FFFFFF66"
+        fontSize="24"
+        ></Text>
+</Panel>
+    <Panel
+        height="24"
+        width="1000"
+        rectAlignment="UpperCenter"
+        offsetXY="0 -120"
+        >
+        <Text
+            text="KNBJ v2.5.4a - XMLet's Go Gambling"
+            alignment="MiddleCenter"
+            color="#FFFF3366"
+            ></Text>
+</Panel>
+
+        <!-- Bounty Bars -->
+<ProgressBar
+    rectAlignment="LowerRight"
+    width="250"
+    height="8"
+    offsetXY="-10 255"
+    percentage="100"
+    fillImageColor="#ff991199"
+    ></ProgressBar>
+<ProgressBar
+    rectAlignment="LowerRight"
+    width="250"
+    height="8"
+    offsetXY="-10 230"
+    percentage="88.7"
+    fillImageColor="#bbbbcc99"
+    ></ProgressBar>
+<ProgressBar
+    rectAlignment="LowerRight"
+    width="250"
+    height="8"
+    offsetXY="-10 205"
+    percentage="81"
+    fillImageColor="#99551199"
+    ></ProgressBar>
+<ProgressBar
+    rectAlignment="LowerRight"
+    width="250"
+    height="8"
+    offsetXY="-10 125"
+    percentage="28.2"
+    fillImageColor="#aaaaaa99"
+    ></ProgressBar>
+<ProgressBar
+    rectAlignment="LowerRight"
+    width="250"
+    height="8"
+    offsetXY="-10 100"
+    percentage="23.9"
+    fillImageColor="#aaaaaa99"
+    ></ProgressBar>
+
+<!-- Side Panel -->
+<Panel
+    height="600"
+    width="500"
+    rectAlignment="LowerRight"
+    offsetXY="-10 100"
+    >
+    <VerticalLayout>
+        <Text
+            text="MOTW: XML is so fun guys"
+            class="sub"
+            ></Text>
+        <Text></Text> <!-- Section Spacer -->
+        <Text
+            text="PAYOUT CHEATSHEET"
+            class="head"
+            ></Text>
+        <Text
+            text="Joker: Counts as a 0, +1 Pull"
+            fontSize="14"
+            ></Text>
+        <Text
+            text="Blackjack/5-Cards (w/ PU): 1:1"
+            class="sub"
+            ></Text>
+        <Text
+            text="6-card Trick (w/ PU): 2:1"
+            class="sub"
+            ></Text>
+        <Text
+            text="7-card Trick (w/ PU): 2:1 + 1 Pull"
+            class="sub"
+            ></Text>
+        <Text
+            text="Blackjack/5-Cards (w/o PU): 1:1 + 1 Pull"
+            ></Text>
+        <Text
+            text="6-card Trick (w/o PU): 3:1 + 2 Pull"
+            ></Text>
+        <Text
+            text="7-card Trick (w/o PU): 5:1 + 3 Pull"
+            ></Text>
+        <Text
+            text="8-card Trick (w/o PU): Log + 1:1 + 6 Pull"
+            ></Text>
+        <Text
+            text="9-card Trick (True Nat): I shit myself"
+            ></Text>
+        <Text
+            text="Screw Over Another Player:"
+            color="#ff3333"
+            ></Text>
+        <Text
+            text="Take Their Bet + 1 Pull"
+            color="#ff3333"
+            ></Text>
+        <Text></Text> <!-- Section Spacer -->
+        <Text
+            text="BOUNTY BOARD (+1 Extra Pull)"
+            class="head"
+            ></Text>
+        <Text
+            id="goldBounty"
+            text="(2x) 1st: reilly999 @ 485e18 (485Qi)"
+            color="#ff9911"
+            ></Text>
+        <Text
+            id="silverBounty"
+            text="2nd: MiniChris @ 225e16 (2.25Qi)"
+            color="#bbbbcc"
+            ></Text>
+        <Text
+            id="bronzeBounty"
+            text="3rd: etrun3 @ 570e14 (57Qa)"
+            color="#995511"
+            ></Text>
+        <Text></Text> <!-- Section Spacer -->
+        <Text
+            text="HONORABLE MENTIONS (No Bounty)"
+            class="head"
+            color="#aaaaaa"
+            ></Text>
+        <Text
+            text="4th: SprayPay @ 670e3 (670K)"
+            class="sub"
+            ></Text>
+        <Text
+            text="5th: Fulvern @ 890e2 (89K)"
+            class="sub"
+        ></Text>
+    </VerticalLayout>
+</Panel>
