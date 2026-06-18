@@ -24,7 +24,9 @@
         <Button
             onClick="toggleBronzeBounty">3</Button>
     </VerticalLayout>
-    </Panel>
+</Panel>
+
+<!-- ADMIN: Player bals -->
 
 <!-- BGM & Version -->
 <Panel
@@ -41,17 +43,17 @@
         fontSize="24"
         ></Text>
 </Panel>
-    <Panel
-        height="24"
-        width="1000"
-        rectAlignment="UpperCenter"
-        offsetXY="0 -120"
-        >
-        <Text
-            text="KNBJ v2.5.4a - XMLet's Go Gambling"
-            alignment="MiddleCenter"
-            color="#FFFF3366"
-            ></Text>
+<Panel
+    height="24"
+    width="1000"
+    rectAlignment="UpperCenter"
+    offsetXY="0 -120"
+    >
+    <Text
+        text="KNBJ v2.5.4a - XMLet's Go Gambling"
+        alignment="MiddleCenter"
+        color="#FFFF3366"
+        ></Text>
 </Panel>
 
         <!-- Bounty Bars -->
@@ -188,3 +190,27 @@
         ></Text>
     </VerticalLayout>
 </Panel>
+
+<!-- Watermark -->
+<Text
+    width="500"
+    height="50"
+    rectAlignment="LowerRight"
+    offsetXY="-190 45"
+    text="Activate Windows"
+    color="#cccccc66"
+    fontSize="32"
+    fontStyle="normal"
+    outlineSize="0 0"
+    ></Text>
+<Text
+    width="500"
+    height="50"
+    rectAlignment="LowerRight"
+    offsetXY="-120 20"
+    text="Go to Settings to activate Windows."
+    color="#cccccc66"
+    fontSize="20"
+    fontStyle="normal"
+    outlineSize="0 0"
+    ></Text>
