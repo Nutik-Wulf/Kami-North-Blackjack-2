@@ -1,20 +1,40 @@
-SPIRIT HALLOWEEN
---White--
-Dissolver | Costs 900 | Put this in your crafting flower with a PU to uncraft that PU, returning its essences. (3-essence PUs will recover 2 of each.)
+<> --- SPIRIT HALLOWEEN --- <>
 
-Clamp | Costs n^2 log, n = clamp level + 1 | A portable table extension to hold more items. Buying more increases size by 50% (additive)
+    --Purple--
+    Mitosis Machine | Costs 750 | Duplicate a Crafting Material.
 
---Gold--
-Water Cooler | Costs 1 Log | Once per player per session, you can play a Force Water for free.
+    Deepest Desire | Costs RANDOM Perk + 20 Log | One of your perks will become your desired perk. Must be currently Perkable, and you cannot already have it.
 
-Display Stand | Costs 8 Log | Place your stone on it to temporarily disable its effects. You can take it off at any time.
+<> --- PERKS --- <>
 
---Green--
-Shop Redo | Costs ANY Perk + 10 Log | Draw 3 perks, choose 1. CAN include your original perk if drawn.
+    Redo no longer has an ID, like Perkeo's Calling
 
-Stonecutter | Costs 12 Log | Perform your stone's effect twice.
+    Tardy Seal
+    When betting exactly half of your chips, 25% chance to double your bet for free after cards are dealt.
 
---Purple--
-Mitosis Machine | Costs 750 | Duplicate a Crafting Material.
+    Mortar & Pestle
+    Gain a free Dissolver every session you participate.
 
-Deepest Desire | Costs RANDOM Perk + 20 Log | One of your perks will become your desired perk. Must be currently Perkable, and you cannot already have it.
+    Stonemason
+    Optionally perform your stone's reroll another time. 5% chance to destroy stone after each trigger.
+
+    Trashamingo
+    The cost scaling in the Lottery no longer includes Garbage. ("You're pretty either way")
+
+    Piss Baby
+    Double any log tokens earned through the Lottery.
+
+    Precision Sawmill
+    Gain a Wood Chip and bet it at start of every session. This functions like an isolated $100, belt blitz mode
+
+<> --- POWERUPS --- <>
+
+    --Metal--
+    Trap Card
+    MlWdWrGdWdMl
+    Trash a card and keep it in your hand, you can then play it in the future
+
+    --Magic--
+    Pot of Greed
+    MgWdWrMg
+    Draw 3 additional cards from the deck. (During your turn)

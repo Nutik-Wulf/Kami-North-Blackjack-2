@@ -26,8 +26,6 @@
     </VerticalLayout>
 </Panel>
 
-<!-- ADMIN: Player bals -->
-
 <!-- BGM & Version -->
 <Panel
     height="36"
@@ -56,7 +54,7 @@
         ></Text>
 </Panel>
 
-        <!-- Bounty Bars -->
+<!-- Bounty Bars -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
@@ -70,31 +68,31 @@
     width="250"
     height="8"
     offsetXY="-10 230"
-    percentage="88.7"
+    percentage="80.7"
     fillImageColor="#bbbbcc99"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 205"
-    percentage="81"
+    offsetXY="-10 204"
+    percentage="76.5"
     fillImageColor="#99551199"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 125"
-    percentage="28.2"
+    offsetXY="-10 123"
+    percentage="27.2"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 100"
-    percentage="23.9"
+    offsetXY="-10 95"
+    percentage="23.3"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 
@@ -161,7 +159,7 @@
             ></Text>
         <Text
             id="goldBounty"
-            text="(2x) 1st: reilly999 @ 485e18 (485Qi)"
+            text="(2x) 1st: reilly999 @ 550e20 (55Sx)"
             color="#ff9911"
             ></Text>
         <Text
@@ -171,7 +169,7 @@
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: etrun3 @ 570e14 (57Qa)"
+            text="3rd: etrun3 @ 245e15 (245Qa)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -181,11 +179,11 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: SprayPay @ 670e3 (670K)"
+            text="4th: SprayPay @ 160e4 (1.6M)"
             class="sub"
             ></Text>
         <Text
-            text="5th: Fulvern @ 890e2 (89K)"
+            text="5th: Hyskel @ 200e3 (200K)"
             class="sub"
         ></Text>
     </VerticalLayout>
