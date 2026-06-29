@@ -407,7 +407,7 @@
 		},
 		{
 			"powerup": "Sacrifice",
-			"essences": ["th","fr","wd","fr","th"]
+			"essences": ["th","fr","th","wd","th"]
 		},
 		{
 			"powerup": "Fourpeat",

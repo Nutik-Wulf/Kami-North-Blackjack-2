@@ -2,19 +2,19 @@
 
 <Defaults>
     <Panel color="#00000000" />
-    <Text fontStyle="bold" color="#eeeeee" fontSize="18" outline="#000000" outlineSize="2 2" alignment="MiddleRight" />
+    <Text fontStyle="bold" color="#eeeeee" fontSize="16" outline="#000000" outlineSize="2 2" alignment="MiddleRight" />
     <Text class="sub" color="#aaaaaa" />
-    <Text class="head" fontSize="22" />
+    <Text class="head" fontSize="20" />
     <ProgressBar color="#00000033" showPercentageText="false" />
 </Defaults>
 
 <!-- ADMIN: Bounty Board Control -->
 <Panel
     visibility="Black"
-    width="32"
-    height="96"
+    width="24"
+    height="72"
     rectAlignment="LowerRight"
-    offsetXY="-400 205"
+    offsetXY="-350 175"
     >
     <VerticalLayout>
         <Button
@@ -59,7 +59,7 @@
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 255"
+    offsetXY="-10 227"
     percentage="100"
     fillImageColor="#ff991199"
     ></ProgressBar>
@@ -67,24 +67,24 @@
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 230"
-    percentage="80.7"
+    offsetXY="-10 206"
+    percentage="87"
     fillImageColor="#bbbbcc99"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 204"
-    percentage="76.5"
+    offsetXY="-10 185"
+    percentage="28.2"
     fillImageColor="#99551199"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 123"
-    percentage="27.2"
+    offsetXY="-10 117"
+    percentage="27"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
@@ -92,20 +92,20 @@
     width="250"
     height="8"
     offsetXY="-10 95"
-    percentage="23.3"
+    percentage="20.9"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 
 <!-- Side Panel -->
 <Panel
-    height="600"
+    height="500"
     width="500"
     rectAlignment="LowerRight"
     offsetXY="-10 100"
     >
     <VerticalLayout>
         <Text
-            text="MOTW: XML is so fun guys"
+            text="MOTW: updatemaxxing"
             class="sub"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -159,17 +159,17 @@
             ></Text>
         <Text
             id="goldBounty"
-            text="(2x) 1st: reilly999 @ 550e20 (55Sx)"
+            text="(2x) 1st: reilly999 @ 510e21 (510Sx)"
             color="#ff9911"
             ></Text>
         <Text
             id="silverBounty"
-            text="2nd: MiniChris @ 225e16 (2.25Qi)"
+            text="2nd: MiniChris @ 425e18 (425Qi)"
             color="#bbbbcc"
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: etrun3 @ 245e15 (245Qa)"
+            text="3rd: Hyskel @ 490e4 (4.9M)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -179,11 +179,11 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: SprayPay @ 160e4 (1.6M)"
+            text="4th: SprayPay @ 245e4 (2.45M)"
             class="sub"
             ></Text>
         <Text
-            text="5th: Hyskel @ 200e3 (200K)"
+            text="5th: Fulvern @ 890e2 (89K)"
             class="sub"
         ></Text>
     </VerticalLayout>
