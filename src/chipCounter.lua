@@ -1,3 +1,5 @@
+-- This script is retired. For its successor, see playerCard.lua. --
+
 local C_COLOR = "Black"
 
 function onPlayerChangeColor(c)

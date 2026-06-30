@@ -17,7 +17,7 @@ function getMusic()
 end
 
 function toggleGoldBounty()
-local clr = UI.getAttribute("goldBounty", "color")
+    local clr = UI.getAttribute("goldBounty", "color")
     if clr == "#ff9911" then
         UI.setAttribute("goldBounty", "color", "#ff991133")
     else

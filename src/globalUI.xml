@@ -2,9 +2,9 @@
 
 <Defaults>
     <Panel color="#00000000" />
-    <Text fontStyle="bold" color="#eeeeee" fontSize="16" outline="#000000" outlineSize="2 2" alignment="MiddleRight" />
+    <Text font="Font" color="#eeeeee" fontSize="16" outline="#000000" outlineSize="1 1" alignment="MiddleRight" />
     <Text class="sub" color="#aaaaaa" />
-    <Text class="head" fontSize="20" />
+    <Text class="head" fontStyle="bold" fontSize="20" />
     <ProgressBar color="#00000033" showPercentageText="false" />
 </Defaults>
 
@@ -14,7 +14,7 @@
     width="24"
     height="72"
     rectAlignment="LowerRight"
-    offsetXY="-350 175"
+    offsetXY="-300 175"
     >
     <VerticalLayout>
         <Button
@@ -28,33 +28,28 @@
 
 <!-- BGM & Version -->
 <Panel
-    height="36"
+    height="40"
     width="1000"
     rectAlignment="UpperCenter"
     offsetXY="0 -90"
     >
-    <Text
-        id="playing"
-        text="Loading..."
-        alignment="MiddleCenter"
-        color="#FFFFFF66"
-        fontSize="24"
-        ></Text>
-</Panel>
-<Panel
-    height="24"
-    width="1000"
-    rectAlignment="UpperCenter"
-    offsetXY="0 -120"
-    >
-    <Text
-        text="KNBJ v2.5.4a - XMLet's Go Gambling"
-        alignment="MiddleCenter"
-        color="#FFFF3366"
-        ></Text>
+    <VerticalLayout>
+        <Text
+            id="playing"
+            text="Loading..."
+            alignment="MiddleCenter"
+            color="#FFFFFF66"
+            fontSize="24"
+            ></Text>
+        <Text
+            text="KNBJ v2.5.4b - Bottom Text"
+            alignment="MiddleCenter"
+            color="#FFFF3366"
+            ></Text>
+    </VerticalLayout>
 </Panel>
 
-<!-- Bounty Bars -->
+        <!-- Bounty Bars -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
@@ -83,7 +78,7 @@
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 117"
+    offsetXY="-10 119"
     percentage="27"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
@@ -91,15 +86,15 @@
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 95"
+    offsetXY="-10 96"
     percentage="20.9"
     fillImageColor="#aaaaaa99"
-    ></ProgressBar>
+></ProgressBar>
 
 <!-- Side Panel -->
 <Panel
-    height="500"
-    width="500"
+    height="490"
+    width="350"
     rectAlignment="LowerRight"
     offsetXY="-10 100"
     >
@@ -185,12 +180,13 @@
         <Text
             text="5th: Fulvern @ 890e2 (89K)"
             class="sub"
-        ></Text>
+            ></Text>
     </VerticalLayout>
 </Panel>
 
 <!-- Watermark -->
 <Text
+    font="Foobar"
     width="500"
     height="50"
     rectAlignment="LowerRight"
@@ -202,6 +198,7 @@
     outlineSize="0 0"
     ></Text>
 <Text
+    font="Foobar"
     width="500"
     height="50"
     rectAlignment="LowerRight"

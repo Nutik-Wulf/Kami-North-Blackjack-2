@@ -1,3 +1,5 @@
+-- This script is retired. For its successor, see playerZone.lua. --
+
 local count = getObjectFromGUID("9d907b")
 local sum = 0
 

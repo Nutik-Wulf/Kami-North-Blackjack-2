@@ -1,0 +1,44 @@
+<Defaults>
+    <Text font="Font" color="#AAAAAA" fontSize="24" rotation="0 0 90" />
+</Defaults>
+
+<Image
+    id="icon"
+    image=""
+    position="-90 0 -10"
+    scale="0.02 0.02 1"
+    rotation="0 0 90"
+></Image>
+
+<Text
+    id="name"
+    text="-"
+    position="30 0 -10"
+></Text>
+
+<Text
+    id="bal"
+    text="420e690"
+    position="80 0 -10"
+    fontSize="60"
+></Text>
+
+<Text
+    id="next"
+    text="To the next Belt:"
+    position="185 0 -10"
+    fontSize="12"
+></Text>
+
+<ProgressBar
+    id="belt"
+    font="Font"
+    color="#80808080"
+    fillImageColor="#FFFFFF"
+    percentage="42.69"
+    textAlignment="LowerRight"
+    position="200 0 -10"
+    width="200"
+    height="16"
+    rotation="0 0 90"
+></ProgressBar>
