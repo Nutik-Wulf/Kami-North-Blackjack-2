@@ -32,6 +32,10 @@ function onObjectEnterZone()
     run()
 end
 
+function onObjectLeaveZone()
+    run()
+end
+
 function run()
     -- Reset
     bal = 0
