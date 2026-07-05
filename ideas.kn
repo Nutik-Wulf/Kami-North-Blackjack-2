@@ -30,11 +30,53 @@
 <> --- POWERUPS --- <>
 
     --Metal--
+    Add Card
+    3e MlWr
+    Add 1 to the final CARD's value
+
+    Sub Card
+    3e MlGd
+    Sub 1 from the final CARD's value
+
+
+    3e MlWd
+
+
+    Metal Suit Cards
+    2   MlGdMlGd
+    3   MlGdMlWd
+    4   MlWdMlWd
+    5   MlWdMlFr
+    6   MlFrMlFr
+    7   MlWrMlFr
+    8   MlWrMlWr
+    9   MlWrMlWrMl
+
+    Clone Card
+    MlWdMlWdMl
+    Clone the last card in your hand.
+
     Trap Card
     MlWdWrGdWdMl
     Trash a card and keep it in your hand, you can then play it in the future
+
+    Dynamicard
+    MlIcWrMlGdIcMl
+    Your last card becomes a DYNAMICARD, which can equal ANY POS INTEGER value up to its current value.
 
     --Magic--
     Pot of Greed
     MgWdWrMg
     Draw 3 additional cards from the deck. (During your turn)
+
+    Skip
+    MgSlMgIcSlIcMgSlMg
+    Abort the round immediately.
+
+    --Ghost--
+    Shower Dealer Card
+
+    --Ghost + Magic--
+    Bust Dealer
+    GoWrWdFrGoIcSlMgGo
+    The dealer instantly busts. (Can be used any time)
