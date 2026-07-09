@@ -1,20 +1,6 @@
-<> --- SPIRIT HALLOWEEN --- <>
+<> --- SHOPS --- <>
 
-    --Purple--
-    Mitosis Machine | Costs 750 | Duplicate a Crafting Material.
-
-    Deepest Desire | Costs RANDOM Perk + 20 Log | One of your perks will become your desired perk. Must be currently Perkable, and you cannot already have it.
-
-    --Blue--
-    Factions | FREE, change for 10 Log | Aligning with a faction grants benefits depending on which faction you choose.
-    Fairy   Bets under $100 will gain an additional 1:1 on victory (including bankruptcy).
-    Elf     Pulls NOT from timers function as if having one Bloom active on it.
-    Angel   Gain 1 permanent PU slot.
-    Goblin  Lotto Pull costs scale after the Second pull per hand rather than the First.
-    Undead  Remove the 4-pull cap of idling/afk, and increase Scratch Card size by 1.
-    Demon   Bets over $500 will gain an additional 2:1 on victory.
-
-    --Red--
+    -- Red --
     Factions | 20 Log
     Dwarf   Gain an isolated pull at the start of the session, draw 1 for every 10 log tokens owned. Must be with Fairy, Elf or Angel.
     Drow    (Once per session, activates during payouts) Losing while all in will not delete your money, but you cannot change your bet when its effect activates. Must be with Goblin, Undead or Demon.
@@ -77,25 +63,6 @@
     MlIcWrMlGdIcMl
     Your last card becomes a DYNAMICARD, which can equal ANY POS INTEGER value up to its current value.
 
-    --Magic--
-    DOUBLE DOWN ANYWAY
-
-    Pot of Greed
-    MgWdWrMg
-    Draw 3 additional cards from the deck. (During your turn)
-
-    Skip
-    MgSlMgIcSlIcMgSlMg
-    Abort the round immediately.
-
-    --Ghost--
-    Shower Dealer Card
-
-    --Ghost + Magic--
-    Bust Dealer
-    GoWrWdFrGoIcSlMgGo
-    The dealer instantly busts. (Can be used any time)
-
 <>POISON UPDATE<>
 Venomous PU. Does not take a PU slot. Can be used on any player. Effects last for the entire session.
 Can be used between rounds.
@@ -125,6 +92,8 @@ Can be used between rounds.
     Slimeball
     PnFrPnTh
     Occupy 0.5 of the target's PU slots per Slimeball, rounding down the modification value. Does not occupy Cubes.
+
+
 
 --5e--
     Antidote 4
