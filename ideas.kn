@@ -95,3 +95,69 @@
     Bust Dealer
     GoWrWdFrGoIcSlMgGo
     The dealer instantly busts. (Can be used any time)
+
+<>POISON UPDATE<>
+Venomous PU. Does not take a PU slot. Can be used on any player. Effects last for the entire session.
+Can be used between rounds.
+
+--3e--
+    Toxic Add 1
+    PnWr
+    Increase the value of target's hand by 1/3 per Toxic Add 1, rounding down the modification value.
+
+    Toxic Sub 1
+    PnGd
+    Decrease the value of target's hand by 1/3 per Toxic Sub 1, rounding down the modification value.
+
+    Blindness
+    PnWd
+    For every 3 stacks of Blindness on the target, the bottom card is hidden/face down.
+
+    Weaken
+    PnFr
+    For every 3 stacks of Weakness on the target, increase all modification values by 100%.
+
+--4e--
+    Antidote 3
+    PnIcPnIc
+    Remove all Venomous PUs targeting you that are 3 essences or less.
+
+    Slimeball
+    PnFrPnTh
+    Occupy 0.5 of the target's PU slots per Slimeball, rounding down the modification value. Does not occupy Cubes.
+
+--5e--
+    Antidote 4
+    PnIcPnIcPn
+    Remove all Venomous PUs targeting you that are 4 essences or less.
+
+    Dart Add 1
+    PnWrFrWrPn
+    Increase the value of target's hand by 1 per Dart Add 1.
+
+    Dart Sub 1
+    PnGdFrGdPn
+    Decrease the value of target's hand by 1 per Dart Sub 1.
+
+--6e--
+    Antidote
+    PnIcPnIcPnIc
+    Remove all Venomous PUs targeting you.
+
+    Dart Try Again
+    PnFrWdFrWdPn
+    After standing, the target will redraw their final card.
+
+--7e--
+    Vaccination
+    PnIcPnIcPnIcPn
+    You can no longer be effected by Venomous PUs this session.
+
+--8e--
+    Looping Gun
+    PnwrFrWrFrWrFrPn
+    The target's first action will always be to hit.
+
+    Looping Sign
+    PnGdFrGdFrGdFrPn
+    The target's first action will always be to stand.
