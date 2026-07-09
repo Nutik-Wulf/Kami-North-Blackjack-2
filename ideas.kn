@@ -5,6 +5,21 @@
 
     Deepest Desire | Costs RANDOM Perk + 20 Log | One of your perks will become your desired perk. Must be currently Perkable, and you cannot already have it.
 
+    --Blue--
+    Factions | FREE, change for 10 Log | Aligning with a faction grants benefits depending on which faction you choose.
+    Fairy   Bets under $100 will gain an additional 1:1 on victory (including bankruptcy).
+    Elf     Pulls NOT from timers function as if having one Bloom active on it.
+    Angel   Gain 1 permanent PU slot.
+    Goblin  Lotto Pull costs scale after the Second pull per hand rather than the First.
+    Undead  Remove the 4-pull cap of idling/afk, and increase Scratch Card size by 1.
+    Demon   Bets over $500 will gain an additional 2:1 on victory.
+
+    --Red--
+    Factions | 20 Log
+    Dwarf   Gain an isolated pull at the start of the session, draw 1 for every 10 log tokens owned. Must be with Fairy, Elf or Angel.
+    Drow    (Once per session, activates during payouts) Losing while all in will not delete your money, but you cannot change your bet when its effect activates. Must be with Goblin, Undead or Demon.
+    Merc.   Choose the effects of any 2 factions to use. Must be with Dwarf Drow or Mercenary.
+
 <> --- PERKS --- <>
 
     Redo no longer has an ID, like Perkeo's Calling
@@ -12,7 +27,7 @@
     Tardy Seal
     When betting exactly half of your chips, 25% chance to double your bet for free after cards are dealt.
 
-    Mortar & Pestle
+    Alchemist
     Gain a free Dissolver every session you participate.
 
     Stonemason
@@ -38,9 +53,7 @@
     3e MlGd
     Sub 1 from the final CARD's value
 
-
     3e MlWd
-
 
     Metal Suit Cards
     2   MlGdMlGd
@@ -65,6 +78,8 @@
     Your last card becomes a DYNAMICARD, which can equal ANY POS INTEGER value up to its current value.
 
     --Magic--
+    DOUBLE DOWN ANYWAY
+
     Pot of Greed
     MgWdWrMg
     Draw 3 additional cards from the deck. (During your turn)

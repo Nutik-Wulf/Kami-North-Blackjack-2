@@ -42,28 +42,29 @@
             fontSize="24"
             ></Text>
         <Text
-            text="KNBJ v2.5.4b - Bottom Text"
+            text="KNBJ v2.6.0 - Toxic"
             alignment="MiddleCenter"
             color="#FFFF3366"
             ></Text>
     </VerticalLayout>
 </Panel>
 
-        <!-- Bounty Bars -->
+<!-- Bounty Bars -->
+<!-- All-time max: 125e25 (27.10 pts) -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 227"
-    percentage="100"
+    offsetXY="-10 225"
+    percentage="95"
     fillImageColor="#ff991199"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 206"
-    percentage="87"
+    offsetXY="-10 205"
+    percentage="29"
     fillImageColor="#bbbbcc99"
     ></ProgressBar>
 <ProgressBar
@@ -71,23 +72,23 @@
     width="250"
     height="8"
     offsetXY="-10 185"
-    percentage="28.2"
+    percentage="28"
     fillImageColor="#99551199"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 119"
-    percentage="27"
+    offsetXY="-10 120"
+    percentage="25"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
-    offsetXY="-10 96"
-    percentage="20.9"
+    offsetXY="-10 100"
+    percentage="18"
     fillImageColor="#aaaaaa99"
 ></ProgressBar>
 
@@ -100,7 +101,7 @@
     >
     <VerticalLayout>
         <Text
-            text="MOTW: updatemaxxing"
+            text="MOTW: pls appreciate my compositions :)"
             class="sub"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -153,18 +154,22 @@
             class="head"
             ></Text>
         <Text
+            text="RECORD: 125e25 (1.25O)"
+            fontSize="12"
+            ></Text>
+        <Text
             id="goldBounty"
-            text="(2x) 1st: reilly999 @ 510e21 (510Sx)"
+            text="(2x) 1st: MiniChris @ 465e23 (46.5Sp)"
             color="#ff9911"
             ></Text>
         <Text
             id="silverBounty"
-            text="2nd: MiniChris @ 425e18 (425Qi)"
+            text="2nd: Hyskel @ 650e5 (65M)"
             color="#bbbbcc"
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: Hyskel @ 490e4 (4.9M)"
+            text="3rd: reilly999 @ 515e5 (51.5M)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -174,7 +179,7 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: SprayPay @ 245e4 (2.45M)"
+            text="4th: SprayPay @ 585e4 (5.85M)"
             class="sub"
             ></Text>
         <Text

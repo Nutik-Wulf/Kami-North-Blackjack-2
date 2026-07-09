@@ -7,7 +7,7 @@ local nextBelt = 1
 
 -- Hex color for XML
 local unbelt = "#AAAAAA"
-local belts = {"#FFFFFF", "#FFBB33", "#33BB33", "#BB33FF", "#3333BB", "#BB3333", "#995533", "#333333"}
+local belts = {"#FFFFFF", "#FFBB33", "#33BB33", "#BB33FF", "#3333FF", "#BB3333", "#995533", "#333333"}
 
 -- Vector3 Color for Tinting
 local untint = {2/3, 2/3, 2/3}
@@ -16,7 +16,7 @@ local tints = {
     {1, 0.8, 0.2},
     {0.2, 0.8, 0.2},
     {0.8, 0.2, 1},
-    {0.2, 0.2, 0.8},
+    {0.2, 0.2, 1},
     {0.8, 0.2, 0.2},
     {0.6, 0.4, 0.2},
     {0.2, 0.2, 0.2},
