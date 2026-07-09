@@ -8,7 +8,8 @@
 		"ic",
 		"th",
 		"sl",
-		"gr"
+		"gr",
+		"pn"
 	],
 
 	"recipes": 
@@ -416,6 +417,86 @@
 		{
 			"powerup": "Me Draw",
 			"essences": ["wd","wr","wd","wr","wd","wr","wd"]
-		}
+		},
+		{
+			"powerup": "Toxic Add 1",
+			"essences": ["pn", "wr","pn"]
+		},
+		{
+			"powerup": "Toxic Add 1",
+			"essences": ["wr", "pn","wr"]
+		},
+		{
+			"powerup": "Toxic Sub 1",
+			"essences": ["pn", "gd","pn"]
+		},
+		{
+			"powerup": "Toxic Sub 1",
+			"essences": ["gd", "pn","gd"]
+		},
+		{
+			"powerup": "Blindness",
+			"essences": ["pn", "wd","pn"]
+		},
+		{
+			"powerup": "Blindness",
+			"essences": ["wd", "pn","wd"]
+		},
+		{
+			"powerup": "Weakness",
+			"essences": ["pn", "fr","pn"]
+		},
+		{
+			"powerup": "Weakness",
+			"essences": ["fr", "pn","fr"]
+		},
+		{
+			"powerup": "Slimeball",
+			"essences": ["pn", "th","pn","fr"]
+		},
+		{
+			"powerup": "Cerveza Cristal",
+			"essences": ["pn", "fr","pn","sl"]
+		},
+		{
+			"powerup": "Mold",
+			"essences": ["pn", "wr","pn","gr"]
+		},
+		{
+			"powerup": "Dart Add 1",
+			"essences": ["pn", "wr", "fr", "wr", "pn"]
+		},
+		{
+			"powerup": "Dart Sub 1",
+			"essences": ["pn", "gd", "fr", "gd", "pn"]
+		},
+		{
+			"powerup": "Dart Try Again",
+			"essences": ["pn", "fr", "wd", "fr", "wd", "pn"]
+		},
+		{
+			"powerup": "Looping Gun",
+			"essences": ["pn", "wr", "fr", "wr", "fr", "wr", "fr", "pn"]
+		},
+		{
+			"powerup": "Looping Sign",
+			"essences": ["pn", "gd", "fr", "gd", "fr", "gd", "fr", "pn"]
+		},
+		{
+			"powerup": "Antidote 3",
+			"essences": ["pn", "ic", "pn", "ic"]
+		},
+		{
+			"powerup": "Antidote 4",
+			"essences": ["pn", "ic", "pn", "ic", "pn"]
+		},
+		{
+			"powerup": "Antidote",
+			"essences": ["pn", "ic", "pn", "ic", "pn", "ic"]
+		},
+		{
+			"powerup": "Vaccine",
+			"essences": ["pn", "ic", "pn", "ic", "pn", "ic", "pn"]
+		},
 	]
 }
