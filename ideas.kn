@@ -3,30 +3,8 @@
     -- Red --
     Factions | 20 Log
     Dwarf   Gain an isolated pull at the start of the session, draw 1 for every 10 log tokens owned. Must be with Fairy, Elf or Angel.
-    Drow    (Once per session, activates during payouts) Losing while all in will not delete your money, but you cannot change your bet when its effect activates. Must be with Goblin, Undead or Demon.
+    Drow    (Once per session, activates during payouts) Losing while all in will not delete your money, but you cannot change your bet when its effect activates. Must be with Goblin, Undead or Hellspawn.
     Merc.   Choose the effects of any 2 factions to use. Must be with Dwarf Drow or Mercenary.
-
-<> --- PERKS --- <>
-
-    Redo no longer has an ID, like Perkeo's Calling
-
-    Tardy Seal
-    When betting exactly half of your chips, 25% chance to double your bet for free after cards are dealt.
-
-    Alchemist
-    Gain a free Dissolver every session you participate.
-
-    Stonemason
-    Optionally perform your stone's reroll another time. 5% chance to destroy stone after each trigger.
-
-    Trashamingo
-    The cost scaling in the Lottery no longer includes Garbage. ("You're pretty either way")
-
-    Piss Baby
-    Double any log tokens earned through the Lottery.
-
-    Precision Sawmill
-    Gain a Wood Chip and bet it at start of every session. This functions like an isolated $100, belt blitz mode
 
 <> --- POWERUPS --- <>
 
