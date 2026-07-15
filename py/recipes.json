@@ -497,6 +497,6 @@
 		{
 			"powerup": "Vaccine",
 			"essences": ["pn", "ic", "pn", "ic", "pn", "ic", "pn"]
-		},
+		}
 	]
 }
