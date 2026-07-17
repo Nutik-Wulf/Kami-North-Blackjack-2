@@ -26,6 +26,28 @@
     </VerticalLayout>
 </Panel>
 
+<!-- ADMIN: Pull Timer Reset -->
+<InputField
+    id="timeIn"
+    visibility="Black"
+    width="60"
+    height="30"
+    rectAlignment="LowerCenter"
+    offsetXY="115 70"
+    onEndEdit="timeInUpdate"
+    characterValidation="Integer"
+    placeholder="(sec.)"
+    >727</InputField>
+<Button
+    visibility="Black"
+    width="24"
+    height="24"
+    rectAlignment="LowerCenter"
+    offsetXY="170 32"
+    onClick="resetPullTimer"
+    text="R"
+    ></Button>
+
 <!-- BGM & Version -->
 <Panel
     height="40"

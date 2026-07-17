@@ -1,4 +1,5 @@
 --[[ Lua code. See documentation: https://api.tabletopsimulator.com/ --]]
+local timeIn = 727
 
 --[[ The onLoad event is called after the game save finishes loading. --]]
 function onLoad()
@@ -41,4 +42,14 @@ function toggleBronzeBounty()
     else
         UI.setAttribute("bronzeBounty", "color", "#995511")
     end
+end
+
+function timeInUpdate(pl, val, id)
+    timeIn = tonumber(val)
+end
+
+function resetPullTimer()
+    local clock = getObjectFromGUID("3037ac")
+    clock.setValue(timeIn)
+    clock.Clock.pauseStart()
 end
