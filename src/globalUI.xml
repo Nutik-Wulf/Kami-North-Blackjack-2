@@ -38,25 +38,60 @@
             id="playing"
             text="Loading..."
             alignment="MiddleCenter"
-            color="#FFFFFF66"
+            color="#FFFFFFAA"
             fontSize="24"
             ></Text>
         <Text
-            text="KNBJ v2.6.0 - Toxic"
+            text="KNBJ v2.6.1 - All in the Details"
             alignment="MiddleCenter"
-            color="#FFFF3366"
+            color="#FFFF33AA"
             ></Text>
     </VerticalLayout>
 </Panel>
 
+<!-- Bottom Bar Clock -->
+<Panel
+    height="40"
+    width="300"
+    rectAlignment="LowerCenter"
+    offsetXY="0 40"
+    >
+    <HorizontalLayout>
+        <Text
+            id="time"
+            text="HH:MM:SS"
+            alignment="LowerLeft"
+            color="#FFFFFFAA"
+            fontSize="36"
+            ></Text>
+        <Text
+            id="timer"
+            text="(Pull Timer)"
+            alignment="LowerRight"
+            color="#FFFFFFAA"
+            fontSize="24"
+            ></Text>
+    </HorizontalLayout>
+</Panel>
+<ProgressBar
+    height="12"
+    width="300"
+    rectAlignment="LowerCenter"
+    offsetXY="0 32"
+    id="timerBar"
+    percentage="100"
+    color="#000000AA"
+    fillImageColor="#FFFFFFAA"
+    ></ProgressBar>
+
 <!-- Bounty Bars -->
-<!-- All-time max: 125e25 (27.10 pts) -->
+<!-- All-time max: 100e26 (28 pts) -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
     height="8"
     offsetXY="-10 225"
-    percentage="95"
+    percentage="100"
     fillImageColor="#ff991199"
     ></ProgressBar>
 <ProgressBar
@@ -64,7 +99,7 @@
     width="250"
     height="8"
     offsetXY="-10 205"
-    percentage="29"
+    percentage="31"
     fillImageColor="#bbbbcc99"
     ></ProgressBar>
 <ProgressBar
@@ -72,7 +107,7 @@
     width="250"
     height="8"
     offsetXY="-10 185"
-    percentage="28"
+    percentage="25"
     fillImageColor="#99551199"
     ></ProgressBar>
 <ProgressBar
@@ -80,7 +115,7 @@
     width="250"
     height="8"
     offsetXY="-10 120"
-    percentage="25"
+    percentage="18"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
@@ -88,7 +123,7 @@
     width="250"
     height="8"
     offsetXY="-10 100"
-    percentage="18"
+    percentage="17"
     fillImageColor="#aaaaaa99"
 ></ProgressBar>
 
@@ -101,7 +136,7 @@
     >
     <VerticalLayout>
         <Text
-            text="MOTW: Oleander is toxic, I'm slippin under"
+            text="MOTW: You can have alt saves now!"
             class="sub"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -154,22 +189,22 @@
             class="head"
             ></Text>
         <Text
-            text="RECORD: 125e25 (1.25O)"
+            text="RECORD: 100e26 (10O)"
             fontSize="12"
             ></Text>
         <Text
             id="goldBounty"
-            text="(2x) 1st: MiniChris @ 465e23 (46.5Sp)"
+            text="(2x) 1st: MiniChris @ 100e26 (10O)"
             color="#ff9911"
             ></Text>
         <Text
             id="silverBounty"
-            text="2nd: Hyskel @ 650e5 (65M)"
+            text="2nd: Hyskel @ 425e6 (425M)"
             color="#bbbbcc"
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: reilly999 @ 515e5 (51.5M)"
+            text="3rd: SprayPay @ 130e5 (13M)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -179,11 +214,11 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: SprayPay @ 585e4 (5.85M)"
+            text="4th: Fulvern @ 140e3 (140K)"
             class="sub"
             ></Text>
         <Text
-            text="5th: Fulvern @ 890e2 (89K)"
+            text="5th: reilly999 @ 595e2 (59.5K)"
             class="sub"
             ></Text>
     </VerticalLayout>
