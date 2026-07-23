@@ -2,10 +2,10 @@
 
 <Defaults>
     <Panel color="#00000000" />
-    <Text font="Font" color="#eeeeee" fontSize="16" outline="#000000" outlineSize="1 1" alignment="MiddleRight" />
-    <Text class="sub" color="#aaaaaa" />
+    <Text font="Font" color="#EEEEEE" fontSize="16" outline="#000000" outlineSize="1 1" alignment="MiddleRight" />
+    <Text class="sub" color="#AAAAAA" />
     <Text class="head" fontStyle="bold" fontSize="20" />
-    <ProgressBar color="#00000033" showPercentageText="false" />
+    <ProgressBar color="#000000AA" showPercentageText="false" />
 </Defaults>
 
 <!-- ADMIN: Bounty Board Control -->
@@ -37,7 +37,7 @@
     onEndEdit="timeInUpdate"
     characterValidation="Integer"
     placeholder="(sec.)"
-    >727</InputField>
+    >728</InputField>
 <Button
     visibility="Black"
     width="24"
@@ -64,12 +64,50 @@
             fontSize="24"
             ></Text>
         <Text
-            text="KNBJ v2.6.1 - All in the Details"
+            text="KNBJ v2.6.2 - Rushed Development"
             alignment="MiddleCenter"
             color="#FFFF33AA"
             ></Text>
     </VerticalLayout>
 </Panel>
+
+<!-- Panic Timer -->
+<Text
+    id="panicText"
+    visibility="Black"
+    text="60"
+    rectAlignment="UpperCenter"
+    alignment="MiddleCenter"
+    height="40"
+    width="300"
+    offsetXY="0 -150"
+    color="#FF333333"
+    fontSize="36"
+    ></Text>
+<ProgressBar
+    id="panicBar"
+    visibility="Black"
+    percentage="100"
+    rectAlignment="UpperCenter"
+    height="12"
+    width="300"
+    offsetXY="0 -185"
+    fillImageColor="#FF333333"
+    ></ProgressBar>
+<Button
+    visibility="Black"
+    rectAlignment="UpperCenter"
+    width="20"
+    height="20"
+    offsetXY="130 -165"
+    onClick="panicToggle">T</Button>
+<Button
+    visibility="Black"
+    rectAlignment="UpperCenter"
+    width="20"
+    height="20"
+    offsetXY="-130 -165"
+    onClick="panicReset">R</Button>
 
 <!-- Bottom Bar Clock -->
 <Panel
@@ -107,7 +145,7 @@
     ></ProgressBar>
 
 <!-- Bounty Bars -->
-<!-- All-time max: 100e26 (28 pts) -->
+<!-- All-time max: 145e29 (31.16 pts) -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
@@ -129,7 +167,7 @@
     width="250"
     height="8"
     offsetXY="-10 185"
-    percentage="25"
+    percentage="24"
     fillImageColor="#99551199"
     ></ProgressBar>
 <ProgressBar
@@ -137,7 +175,7 @@
     width="250"
     height="8"
     offsetXY="-10 120"
-    percentage="18"
+    percentage="17"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
@@ -145,7 +183,7 @@
     width="250"
     height="8"
     offsetXY="-10 100"
-    percentage="17"
+    percentage="15"
     fillImageColor="#aaaaaa99"
 ></ProgressBar>
 
@@ -158,7 +196,7 @@
     >
     <VerticalLayout>
         <Text
-            text="MOTW: You can have alt saves now!"
+            text="MOTW: Home Depot font from scratch."
             class="sub"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -211,22 +249,22 @@
             class="head"
             ></Text>
         <Text
-            text="RECORD: 100e26 (10O)"
+            text="RECORD: 145e29 (14.5N)"
             fontSize="12"
             ></Text>
         <Text
             id="goldBounty"
-            text="(2x) 1st: MiniChris @ 100e26 (10O)"
+            text="(2x) 1st: MiniChris @ 145e29 (14.5N)"
             color="#ff9911"
             ></Text>
         <Text
             id="silverBounty"
-            text="2nd: Hyskel @ 425e6 (425M)"
+            text="2nd: Hyskel @ 355e7 (3.55B)"
             color="#bbbbcc"
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: SprayPay @ 130e5 (13M)"
+            text="3rd: SprayPay @ 240e5 (24M)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -236,11 +274,11 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: Fulvern @ 140e3 (140K)"
+            text="4th: Fulvern @ 190e3 (190K)"
             class="sub"
             ></Text>
         <Text
-            text="5th: reilly999 @ 595e2 (59.5K)"
+            text="5th: reilly999 @ 530e2 (53K)"
             class="sub"
             ></Text>
     </VerticalLayout>
