@@ -145,7 +145,7 @@
     ></ProgressBar>
 
 <!-- Bounty Bars -->
-<!-- All-time max: 615e31 (33.78 pts) -->
+<!-- All-time max: 220e39 (41.34pts) -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
@@ -159,7 +159,7 @@
     width="250"
     height="8"
     offsetXY="-10 205"
-    percentage="33"
+    percentage="35"
     fillImageColor="#bbbbcc99"
     ></ProgressBar>
 <ProgressBar
@@ -175,7 +175,7 @@
     width="250"
     height="8"
     offsetXY="-10 120"
-    percentage="15"
+    percentage="20"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
@@ -183,7 +183,7 @@
     width="250"
     height="8"
     offsetXY="-10 100"
-    percentage="14"
+    percentage="16"
     fillImageColor="#aaaaaa99"
 ></ProgressBar>
 
@@ -196,7 +196,7 @@
     >
     <VerticalLayout>
         <Text
-            text="MOTW: WYSI"
+            text="MOTW: hii omg hii welcome baack"
             class="sub"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -249,22 +249,22 @@
             class="head"
             ></Text>
         <Text
-            text="RECORD: 615e31 (6.15D)"
+            text="RECORD: MiniChris @ 220e39 (220DDe)"
             fontSize="12"
             ></Text>
         <Text
             id="goldBounty"
-            text="(2x) 1st: MiniChris @ 615e31 (6.15D)"
+            text="(2x) 1st: MiniChris @ 220e39 (220DDe)"
             color="#ff9911"
             ></Text>
         <Text
             id="silverBounty"
-            text="2nd: Hyskel @ 170e9 (170B)"
+            text="2nd: Hyskel @ 310e12 (310T)"
             color="#bbbbcc"
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: SprayPay @ 155e6 (155M)"
+            text="3rd: SprayPay @ 170e8 (15.5B)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -274,11 +274,11 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: Fulvern @ 190e3 (190K)"
+            text="4th: reilly999 @ 270e6 (270M)"
             class="sub"
             ></Text>
         <Text
-            text="5th: reilly999 @ 545e2 (54.5K)"
+            text="5th: Kami North @ 440e4 (4.4M)"
             class="sub"
             ></Text>
     </VerticalLayout>
