@@ -8,6 +8,47 @@
 
 <> --- POWERUPS --- <>
 
+    --Magic--
+    Pot of Greed
+    MgWrMgWd
+    Draw 3 additional cards to your hand
+
+    Mischeivous Manipulation
+    MgWdFrWdSlMg
+    Shuffle and redeal all cards
+
+    Countable Infinity
+    MgIcWrIcMg
+    Can play an unlimited amount of powerups this hand.
+
+    Under The Table
+    MgThSlGrPnMlMg
+    Can play a single PU outside of a time you're allowed to.
+
+    Self Betrayal
+    MgFrMgIc
+    Can play a PvP-Targeting PU on yourself.
+
+    Wilted Rose
+    MgGdFrGrMg
+    Cancel the use of a perk this hand.
+
+    Social Media
+    MgWdSlGrMg
+    Choose the target of the next Whispers you play.
+
+    Froggy Chair
+    MgWdFrThMg
+    Sit at any color, even if a player is already sitting there. That player will have to move.
+
+    Compressence (Fivepeat)
+    Mg2MgMg
+    Use this as an infinite amount of one essence during crafting. (Cannot be used for Add/Sub Inf)
+
+    nil
+    MgIcGdIcGdIcMg
+    Set your hand's value to 0.
+
     --Metal--
     Add Card
     3e MlWr
@@ -17,7 +58,13 @@
     3e MlGd
     Sub 1 from the final CARD's value
 
+    Suit Push
     3e MlWd
+    Final card is next suit (>Fr, Wr, Wd, Gd>)
+
+    Smithing
+    3e MlFr
+    Final card is Metal suit
 
     Metal Suit Cards
     2   MlGdMlGd
@@ -34,9 +81,9 @@
     Clone the last card in your hand.
 
     Trap Card
-    MlWdWrGdWdMl
+    MlWdWrWdGdMl
     Trash a card and keep it in your hand, you can then play it in the future
 
     Dynamicard
-    MlIcWrMlGdIcMl
+    MlIcWrMlIcGdMl
     Your last card becomes a DYNAMICARD, which can equal ANY POS INTEGER value up to its current value.
