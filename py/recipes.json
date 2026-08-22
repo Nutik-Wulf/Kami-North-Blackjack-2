@@ -9,7 +9,9 @@
 		"th",
 		"sl",
 		"gr",
-		"pn"
+		"pn",
+		"ml",
+		"mg"
 	],
 
 	"recipes": 
@@ -45,6 +47,18 @@
 		{
 			"powerup": "Mega Grass",
 			"essences": ["gr","gr","gr"]
+		},
+		{
+			"powerup": "Mega Poison",
+			"essences": ["pn","pn","pn"]
+		},
+		{
+			"powerup": "Mega Metal",
+			"essences": ["ml","ml","ml"]
+		},
+		{
+			"powerup": "Mega Magic",
+			"essences": ["mg","mg","mg"]
 		},
 		{
 			"powerup": "Add 1",
@@ -497,6 +511,122 @@
 		{
 			"powerup": "Vaccine",
 			"essences": ["pn", "ic", "pn", "ic", "pn", "ic", "pn"]
+		},
+		{
+			"powerup": "Pot of Greed",
+			"essences": ["mg", "wr", "mg", "wd"]
+		},
+		{
+			"powerup": "Mischievous Manipulation",
+			"essences": ["mg", "wd", "fr", "wd", "sl", "mg"]
+		},
+		{
+			"powerup": "Countable Infinity",
+			"essences": ["mg", "ic", "wr", "ic", "mg"]
+		},
+		{
+			"powerup": "Under the Table",
+			"essences": ["mg", "th", "sl", "gr", "pn", "ml", "mg"]
+		},
+		{
+			"powerup": "Self Betrayal",
+			"essences": ["mg", "fr", "mg", "ic"]
+		},
+		{
+			"powerup": "Wilted Rose",
+			"essences": ["mg", "gd", "fr", "gr", "mg"]
+		},
+		{
+			"powerup": "Social Media",
+			"essences": ["mg", "wd", "sl", "gr", "mg"]
+		},
+		{
+			"powerup": "Froggy Chair",
+			"essences": ["mg", "wd", "fr", "th", "mg"]
+		},
+		{
+			"powerup": "nil",
+			"essences": ["mg", "ic", "gd", "ic", "gd", "ic", "mg"]
+		},
+		{
+			"powerup": "Card Add 1",
+			"essences": ["ml", "wr", "ml"]
+		},
+		{
+			"powerup": "Card Add 1",
+			"essences": ["wr", "ml", "wr"]
+		},
+		{
+			"powerup": "Card Sub 1",
+			"essences": ["ml", "gd", "ml"]
+		},
+		{
+			"powerup": "Card Sub 1",
+			"essences": ["gd", "ml", "gd"]
+		},
+		{
+			"powerup": "Suit Push",
+			"essences": ["ml", "wd", "ml"]
+		},
+		{
+			"powerup": "Suit Push",
+			"essences": ["wd", "ml", "wd"]
+		},
+		{
+			"powerup": "Smithing",
+			"essences": ["ml", "fr", "ml"]
+		},
+		{
+			"powerup": "Smithing",
+			"essences": ["fr", "ml", "fr"]
+		},
+		{
+			"powerup": "Two",
+			"essences": ["ml", "gd", "ml", "gd"]
+		},
+		{
+			"powerup": "Three",
+			"essences": ["ml", "gd", "ml", "wd"]
+		},
+		{
+			"powerup": "Four",
+			"essences": ["ml", "wd", "ml", "wd"]
+		},
+		{
+			"powerup": "Five",
+			"essences": ["ml", "wd", "ml", "fr"]
+		},
+		{
+			"powerup": "Six",
+			"essences": ["ml", "fr", "ml", "fr"]
+		},
+		{
+			"powerup": "Seven",
+			"essences": ["ml", "wr", "ml", "fr"]
+		},
+		{
+			"powerup": "Eight",
+			"essences": ["ml", "wr", "ml", "wr"]
+		},
+		{
+			"powerup": "Nine",
+			"essences": ["ml", "wr", "ml", "wr", "ml"]
+		},
+		{
+			"powerup": "Clone Card",
+			"essences": ["ml", "wd", "ml", "wd", "ml"]
+		},
+		{
+			"powerup": "Trap Card",
+			"essences": ["ml", "wd", "wr", "wd", "gd", "ml"]
+		},
+		{
+			"powerup": "Dynamicard",
+			"essences": ["ml", "ic", "wr", "ml", "ic", "gd", "ml"]
+		},
+		{
+			"powerup": "Free Hand",
+			"essences": ["wr", "wr", "wr", "wd", "ic", "wd"]
 		}
 	]
 }
