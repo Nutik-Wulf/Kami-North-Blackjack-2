@@ -145,7 +145,7 @@
     ></ProgressBar>
 
 <!-- Bounty Bars -->
-<!-- All-time max: 520e53 (55.71) -->
+<!-- All-time max: 160e57 (59.20) -->
 <ProgressBar
     rectAlignment="LowerRight"
     width="250"
@@ -159,7 +159,7 @@
     width="250"
     height="8"
     offsetXY="-10 205"
-    percentage="30"
+    percentage="32"
     fillImageColor="#bbbbcc99"
     ></ProgressBar>
 <ProgressBar
@@ -167,7 +167,7 @@
     width="250"
     height="8"
     offsetXY="-10 185"
-    percentage="18"
+    percentage="13"
     fillImageColor="#99551199"
     ></ProgressBar>
 <ProgressBar
@@ -175,7 +175,7 @@
     width="250"
     height="8"
     offsetXY="-10 120"
-    percentage="12"
+    percentage="9"
     fillImageColor="#aaaaaa99"
     ></ProgressBar>
 <ProgressBar
@@ -183,7 +183,7 @@
     width="250"
     height="8"
     offsetXY="-10 100"
-    percentage="8"
+    percentage="9"
     fillImageColor="#aaaaaa99"
 ></ProgressBar>
 
@@ -196,7 +196,7 @@
     >
     <VerticalLayout>
         <Text
-            text="MOTW: surprise!!!"
+            text="MOTW: storm pls don't kill the session"
             class="sub"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -249,22 +249,22 @@
             class="head"
             ></Text>
         <Text
-            text="RECORD: MiniChris @ 520e53 (39SpDe)"
+            text="RECORD: MiniChris @ 160e57 (160OcDe)"
             fontSize="12"
             ></Text>
         <Text
             id="goldBounty"
-            text="(2x) 1st: MiniChris @ 520e53 (39SpDe)"
+            text="(2x) 1st: MiniChris @ 160e57 (160OcDe)"
             color="#ff9911"
             ></Text>
         <Text
             id="silverBounty"
-            text="2nd: Hyskel @ 550e14 (55Qa)"
+            text="2nd: Hyskel @ 220e17 (22Qi)"
             color="#bbbbcc"
             ></Text>
         <Text
             id="bronzeBounty"
-            text="3rd: reilly999 @ 155e8 (15.5B)"
+            text="3rd: reilly999 @ 530e5 (53M)"
             color="#995511"
             ></Text>
         <Text></Text> <!-- Section Spacer -->
@@ -274,11 +274,11 @@
             color="#aaaaaa"
             ></Text>
         <Text
-            text="4th: Dolteon @ 585e4 (5.85M)"
+            text="4th: Kami North @ 645e3 (645K)"
             class="sub"
             ></Text>
         <Text
-            text="5th: SprayPay @ 575e2 (57.5K)"
+            text="5th: Roe @ 335e3 (335K)"
             class="sub"
             ></Text>
     </VerticalLayout>
