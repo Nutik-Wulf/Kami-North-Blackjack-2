@@ -675,6 +675,10 @@
 			"essences": ["go", "sl", "fr", "go", "sl", "fr", "go"]
 		},
 		{
+			"powerup": "Caulk Deck",
+			"essences": ["mg", "ml", "sl", "fr", "go", "sl", "ml", "mg"]
+		},
+		{
 			"powerup": "Bust Dealer",
 			"essences": ["go", "wr", "wd", "ic", "go", "go", "sl", "ml", "mg", "go"]
 		}
