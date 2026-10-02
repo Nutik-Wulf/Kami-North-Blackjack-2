@@ -11,7 +11,9 @@
 		"gr",
 		"pn",
 		"ml",
-		"mg"
+		"mg",
+		"go",
+		"gb"
 	],
 
 	"recipes": 
@@ -171,10 +173,6 @@
 		{
 			"powerup": "Snowflake",
 			"essences": ["ic","fr","ic"]
-		},
-		{
-			"powerup": "Free Hand",
-			"essences": ["wr","wd","wr","wd","wr","fr"]
 		},
 		{
 			"powerup": "+-1",
@@ -627,6 +625,58 @@
 		{
 			"powerup": "Free Hand",
 			"essences": ["wr", "wr", "wr", "wd", "ic", "wd"]
+		},
+		{
+			"powerup": "Amazon",
+			"essences": ["mg", "wr", "th", "gb", "mg"]
+		},
+		{
+			"powerup": "Broken Dealer Add 1",
+			"essences": ["go", "wr", "go", "wr"]
+		},
+		{
+			"powerup": "Broken Dealer Sub 1",
+			"essences": ["go", "gd", "go", "gd"]
+		},
+		{
+			"powerup": "Dealer Lift",
+			"essences": ["go", "sl", "go", "wr"]
+		},
+		{
+			"powerup": "Dealer Dig",
+			"essences": ["go", "sl", "go", "gd"]
+		},
+		{
+			"powerup": "Dealer Blade",
+			"essences": ["go", "ic", "gd", "ic", "go"]
+		},
+		{
+			"powerup": "Dealer Snowflake",
+			"essences": ["go", "ic", "fr", "ic", "go"]
+		},
+		{
+			"powerup": "Dealer Add 1",
+			"essences": ["go", "wr", "go", "wr", "go", "wr"]
+		},
+		{
+			"powerup": "Dealer Sub 1",
+			"essences": ["go", "gd", "go", "gd", "go", "gd"]
+		},
+		{
+			"powerup": "Dealer Try Again",
+			"essences": ["go", "fr", "wd", "go", "fr", "wd", "go"]
+		},
+		{
+			"powerup": "Dealer Card Link",
+			"essences": ["go", "wd", "th", "go", "wd", "th", "go"]
+		},
+		{
+			"powerup": "Dealer Double Check Deluxe",
+			"essences": ["go", "sl", "fr", "go", "sl", "fr", "go"]
+		},
+		{
+			"powerup": "Bust Dealer",
+			"essences": ["go", "wr", "wd", "ic", "go", "go", "sl", "ml", "mg", "go"]
 		}
 	]
 }
