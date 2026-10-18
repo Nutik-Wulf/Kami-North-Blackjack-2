@@ -23,289 +23,289 @@
             onClick="toggleSilverBounty">2</Button>
         <Button
             onClick="toggleBronzeBounty">3</Button>
-    </VerticalLayout>
-</Panel>
+        </VerticalLayout>
+    </Panel>
 
-<!-- ADMIN: Pull Timer Reset -->
-<InputField
-    id="timeIn"
-    visibility="Black"
-    width="60"
-    height="30"
-    rectAlignment="LowerCenter"
-    offsetXY="115 70"
-    onEndEdit="timeInUpdate"
-    characterValidation="Integer"
-    placeholder="(sec.)"
-    >728</InputField>
-<Button
-    visibility="Black"
-    width="24"
-    height="24"
-    rectAlignment="LowerCenter"
-    offsetXY="170 32"
-    onClick="resetPullTimer"
-    text="R"
-    ></Button>
+    <!-- ADMIN: Pull Timer Reset -->
+    <InputField
+        id="timeIn"
+        visibility="Black"
+        width="60"
+        height="30"
+        rectAlignment="LowerCenter"
+        offsetXY="115 70"
+        onEndEdit="timeInUpdate"
+        characterValidation="Integer"
+        placeholder="(sec.)"
+        >728</InputField>
+    <Button
+        visibility="Black"
+        width="24"
+        height="24"
+        rectAlignment="LowerCenter"
+        offsetXY="170 32"
+        onClick="resetPullTimer"
+        text="R"
+        ></Button>
 
-<!-- BGM & Version -->
-<Panel
-    height="40"
-    width="1000"
-    rectAlignment="UpperCenter"
-    offsetXY="0 -90"
-    >
-    <VerticalLayout>
+    <!-- BGM & Version -->
+    <Panel
+        height="40"
+        width="1000"
+        rectAlignment="UpperCenter"
+        offsetXY="0 -90"
+        >
+        <VerticalLayout>
+            <Text
+                id="playing"
+                text="Loading..."
+                alignment="MiddleCenter"
+                color="#FFFFFFAA"
+                fontSize="24"
+                ></Text>
+            <Text
+                text="KNBJ v2.8.0 - The Final Act"
+                alignment="MiddleCenter"
+                color="#FFFF33AA"
+                ></Text>
+            </VerticalLayout>
+        </Panel>
+
+        <!-- Panic Timer -->
         <Text
-            id="playing"
-            text="Loading..."
+            id="panicText"
+            visibility="Black"
+            text="60"
+            rectAlignment="UpperCenter"
             alignment="MiddleCenter"
-            color="#FFFFFFAA"
-            fontSize="24"
-            ></Text>
-        <Text
-            text="KNBJ v2.7.1 - Wet Jackies"
-            alignment="MiddleCenter"
-            color="#FFFF33AA"
-            ></Text>
-    </VerticalLayout>
-</Panel>
-
-<!-- Panic Timer -->
-<Text
-    id="panicText"
-    visibility="Black"
-    text="60"
-    rectAlignment="UpperCenter"
-    alignment="MiddleCenter"
-    height="40"
-    width="300"
-    offsetXY="0 -150"
-    color="#FF333333"
-    fontSize="36"
-    ></Text>
-<ProgressBar
-    id="panicBar"
-    visibility="Black"
-    percentage="100"
-    rectAlignment="UpperCenter"
-    height="12"
-    width="300"
-    offsetXY="0 -185"
-    fillImageColor="#FF333333"
-    ></ProgressBar>
-<Button
-    visibility="Black"
-    rectAlignment="UpperCenter"
-    width="20"
-    height="20"
-    offsetXY="130 -165"
-    onClick="panicToggle">T</Button>
-<Button
-    visibility="Black"
-    rectAlignment="UpperCenter"
-    width="20"
-    height="20"
-    offsetXY="-130 -165"
-    onClick="panicReset">R</Button>
-
-<!-- Bottom Bar Clock -->
-<Panel
-    height="40"
-    width="300"
-    rectAlignment="LowerCenter"
-    offsetXY="0 40"
-    >
-    <HorizontalLayout>
-        <Text
-            id="time"
-            text="HH:MM:SS"
-            alignment="LowerLeft"
-            color="#FFFFFFAA"
+            height="40"
+            width="300"
+            offsetXY="0 -150"
+            color="#FF333333"
             fontSize="36"
             ></Text>
-        <Text
-            id="timer"
-            text="(Pull Timer)"
-            alignment="LowerRight"
-            color="#FFFFFFAA"
-            fontSize="24"
-            ></Text>
-    </HorizontalLayout>
-</Panel>
-<ProgressBar
-    height="12"
-    width="300"
-    rectAlignment="LowerCenter"
-    offsetXY="0 32"
-    id="timerBar"
-    percentage="100"
-    color="#000000AA"
-    fillImageColor="#FFFFFFAA"
-    ></ProgressBar>
+        <ProgressBar
+            id="panicBar"
+            visibility="Black"
+            percentage="100"
+            rectAlignment="UpperCenter"
+            height="12"
+            width="300"
+            offsetXY="0 -185"
+            fillImageColor="#FF333333"
+            ></ProgressBar>
+        <Button
+            visibility="Black"
+            rectAlignment="UpperCenter"
+            width="20"
+            height="20"
+            offsetXY="130 -165"
+            onClick="panicToggle">T</Button>
+        <Button
+            visibility="Black"
+            rectAlignment="UpperCenter"
+            width="20"
+            height="20"
+            offsetXY="-130 -165"
+            onClick="panicReset">R</Button>
 
-<!-- Bounty Bars -->
-<!-- All-time max: 160e57 (59.20) -->
-<ProgressBar
-    rectAlignment="LowerRight"
-    width="250"
-    height="8"
-    offsetXY="-10 225"
-    percentage="100"
-    fillImageColor="#ff991199"
-    ></ProgressBar>
-<ProgressBar
-    rectAlignment="LowerRight"
-    width="250"
-    height="8"
-    offsetXY="-10 205"
-    percentage="32"
-    fillImageColor="#bbbbcc99"
-    ></ProgressBar>
-<ProgressBar
-    rectAlignment="LowerRight"
-    width="250"
-    height="8"
-    offsetXY="-10 185"
-    percentage="13"
-    fillImageColor="#99551199"
-    ></ProgressBar>
-<ProgressBar
-    rectAlignment="LowerRight"
-    width="250"
-    height="8"
-    offsetXY="-10 120"
-    percentage="9"
-    fillImageColor="#aaaaaa99"
-    ></ProgressBar>
-<ProgressBar
-    rectAlignment="LowerRight"
-    width="250"
-    height="8"
-    offsetXY="-10 100"
-    percentage="9"
-    fillImageColor="#aaaaaa99"
-></ProgressBar>
+        <!-- Bottom Bar Clock -->
+        <Panel
+            height="40"
+            width="300"
+            rectAlignment="LowerCenter"
+            offsetXY="0 40"
+            >
+            <HorizontalLayout>
+                <Text
+                    id="time"
+                    text="HH:MM:SS"
+                    alignment="LowerLeft"
+                    color="#FFFFFFAA"
+                    fontSize="36"
+                    ></Text>
+                <Text
+                    id="timer"
+                    text="(Pull Timer)"
+                    alignment="LowerRight"
+                    color="#FFFFFFAA"
+                    fontSize="24"
+                    ></Text>
+                </HorizontalLayout>
+            </Panel>
+            <ProgressBar
+                height="12"
+                width="300"
+                rectAlignment="LowerCenter"
+                offsetXY="0 32"
+                id="timerBar"
+                percentage="100"
+                color="#000000AA"
+                fillImageColor="#FFFFFFAA"
+                ></ProgressBar>
 
-<!-- Side Panel -->
-<Panel
-    height="490"
-    width="350"
-    rectAlignment="LowerRight"
-    offsetXY="-10 100"
-    >
-    <VerticalLayout>
-        <Text
-            text="MOTW: storm pls don't kill the session"
-            class="sub"
-            ></Text>
-        <Text></Text> <!-- Section Spacer -->
-        <Text
-            text="PAYOUT CHEATSHEET"
-            class="head"
-            ></Text>
-        <Text
-            text="Joker: Counts as a 0, +1 Pull"
-            fontSize="14"
-            ></Text>
-        <Text
-            text="Blackjack/5-Cards (w/ PU): 1:1"
-            class="sub"
-            ></Text>
-        <Text
-            text="6-card Trick (w/ PU): 2:1"
-            class="sub"
-            ></Text>
-        <Text
-            text="7-card Trick (w/ PU): 2:1 + 1 Pull"
-            class="sub"
-            ></Text>
-        <Text
-            text="Blackjack/5-Cards (w/o PU): 1:1 + 1 Pull"
-            ></Text>
-        <Text
-            text="6-card Trick (w/o PU): 3:1 + 2 Pull"
-            ></Text>
-        <Text
-            text="7-card Trick (w/o PU): 5:1 + 3 Pull"
-            ></Text>
-        <Text
-            text="8-card Trick (w/o PU): Log + 1:1 + 6 Pull"
-            ></Text>
-        <Text
-            text="9-card Trick (True Nat): I shit myself"
-            ></Text>
-        <Text
-            text="Screw Over Another Player:"
-            color="#ff3333"
-            ></Text>
-        <Text
-            text="Take Their Bet + 1 Pull"
-            color="#ff3333"
-            ></Text>
-        <Text></Text> <!-- Section Spacer -->
-        <Text
-            text="BOUNTY BOARD (+1 Extra Pull)"
-            class="head"
-            ></Text>
-        <Text
-            text="RECORD: MiniChris @ 160e57 (160OcDe)"
-            fontSize="12"
-            ></Text>
-        <Text
-            id="goldBounty"
-            text="(2x) 1st: MiniChris @ 160e57 (160OcDe)"
-            color="#ff9911"
-            ></Text>
-        <Text
-            id="silverBounty"
-            text="2nd: Hyskel @ 220e17 (22Qi)"
-            color="#bbbbcc"
-            ></Text>
-        <Text
-            id="bronzeBounty"
-            text="3rd: reilly999 @ 530e5 (53M)"
-            color="#995511"
-            ></Text>
-        <Text></Text> <!-- Section Spacer -->
-        <Text
-            text="HONORABLE MENTIONS (No Bounty)"
-            class="head"
-            color="#aaaaaa"
-            ></Text>
-        <Text
-            text="4th: Kami North @ 645e3 (645K)"
-            class="sub"
-            ></Text>
-        <Text
-            text="5th: Roe @ 335e3 (335K)"
-            class="sub"
-            ></Text>
-    </VerticalLayout>
-</Panel>
+            <!-- Bounty Bars -->
+            <!-- All-time max: 160e64 (66.20) -->
+            <ProgressBar
+                rectAlignment="LowerRight"
+                width="250"
+                height="8"
+                offsetXY="-10 225"
+                percentage="44"
+                fillImageColor="#ff991199"
+                ></ProgressBar>
+            <ProgressBar
+                rectAlignment="LowerRight"
+                width="250"
+                height="8"
+                offsetXY="-10 205"
+                percentage="40"
+                fillImageColor="#bbbbcc99"
+                ></ProgressBar>
+            <ProgressBar
+                rectAlignment="LowerRight"
+                width="250"
+                height="8"
+                offsetXY="-10 185"
+                percentage="14"
+                fillImageColor="#99551199"
+                ></ProgressBar>
+            <ProgressBar
+                rectAlignment="LowerRight"
+                width="250"
+                height="8"
+                offsetXY="-10 120"
+                percentage="10"
+                fillImageColor="#aaaaaa99"
+                ></ProgressBar>
+            <ProgressBar
+                rectAlignment="LowerRight"
+                width="250"
+                height="8"
+                offsetXY="-10 100"
+                percentage="8"
+                fillImageColor="#aaaaaa99"
+                ></ProgressBar>
 
-<!-- Watermark -->
-<Text
-    font="Foobar"
-    width="500"
-    height="50"
-    rectAlignment="LowerRight"
-    offsetXY="-190 45"
-    text="Activate Windows"
-    color="#cccccc66"
-    fontSize="32"
-    fontStyle="normal"
-    outlineSize="0 0"
-    ></Text>
-<Text
-    font="Foobar"
-    width="500"
-    height="50"
-    rectAlignment="LowerRight"
-    offsetXY="-120 20"
-    text="Go to Settings to activate Windows."
-    color="#cccccc66"
-    fontSize="20"
-    fontStyle="normal"
-    outlineSize="0 0"
-    ></Text>
+            <!-- Side Panel -->
+            <Panel
+                height="490"
+                width="350"
+                rectAlignment="LowerRight"
+                offsetXY="-10 100"
+                >
+                <VerticalLayout>
+                    <Text
+                        text="MOTW: :red_panda_standing:"
+                        class="sub"
+                        ></Text>
+                    <Text></Text> <!-- Section Spacer -->
+                    <Text
+                        text="PAYOUT CHEATSHEET"
+                        class="head"
+                        ></Text>
+                    <Text
+                        text="Joker: Counts as a 0, +1 Pull"
+                        fontSize="14"
+                        ></Text>
+                    <Text
+                        text="Blackjack/5-Cards (w/ PU): 1:1"
+                        class="sub"
+                        ></Text>
+                    <Text
+                        text="6-card Trick (w/ PU): 2:1"
+                        class="sub"
+                        ></Text>
+                    <Text
+                        text="7-card Trick (w/ PU): 2:1 + 1 Pull"
+                        class="sub"
+                        ></Text>
+                    <Text
+                        text="Blackjack/5-Cards (w/o PU): 1:1 + 1 Pull"
+                        ></Text>
+                    <Text
+                        text="6-card Trick (w/o PU): 3:1 + 2 Pull"
+                        ></Text>
+                    <Text
+                        text="7-card Trick (w/o PU): 5:1 + 3 Pull"
+                        ></Text>
+                    <Text
+                        text="8-card Trick (w/o PU): Log + 1:1 + 6 Pull"
+                        ></Text>
+                    <Text
+                        text="9-card Trick (True Nat): I shit myself"
+                        ></Text>
+                    <Text
+                        text="Screw Over Another Player:"
+                        color="#ff3333"
+                        ></Text>
+                    <Text
+                        text="Take Their Bet + 1 Pull"
+                        color="#ff3333"
+                        ></Text>
+                    <Text></Text> <!-- Section Spacer -->
+                    <Text
+                        text="BOUNTY BOARD (+1 Extra Pull)"
+                        class="head"
+                        ></Text>
+                    <Text
+                        text="RECORD: MiniChris @ 160e64 (1.6UVg)"
+                        fontSize="12"
+                        ></Text>
+                    <Text
+                        id="goldBounty"
+                        text="(2x) 1st: MiniChris @ 410e27 (410O)"
+                        color="#ff9911"
+                        ></Text>
+                    <Text
+                        id="silverBounty"
+                        text="2nd: Hyskel @ 730e24 (730Sp)"
+                        color="#bbbbcc"
+                        ></Text>
+                    <Text
+                        id="bronzeBounty"
+                        text="3rd: SprayPay @ 220e7 (2.2B)"
+                        color="#995511"
+                        ></Text>
+                    <Text></Text> <!-- Section Spacer -->
+                    <Text
+                        text="HONORABLE MENTIONS (No Bounty)"
+                        class="head"
+                        color="#aaaaaa"
+                        ></Text>
+                    <Text
+                        text="4th: reilly999 @ 570e4 (5.7M)"
+                        class="sub"
+                        ></Text>
+                    <Text
+                        text="5th: Roe @ 500e3 (500K)"
+                        class="sub"
+                        ></Text>
+                    </VerticalLayout>
+                </Panel>
+
+                <!-- Watermark -->
+                <Text
+                    font="Foobar"
+                    width="500"
+                    height="50"
+                    rectAlignment="LowerRight"
+                    offsetXY="-190 45"
+                    text="Activate Windows"
+                    color="#cccccc66"
+                    fontSize="32"
+                    fontStyle="normal"
+                    outlineSize="0 0"
+                    ></Text>
+                <Text
+                    font="Foobar"
+                    width="500"
+                    height="50"
+                    rectAlignment="LowerRight"
+                    offsetXY="-120 20"
+                    text="Go to Settings to activate Windows."
+                    color="#cccccc66"
+                    fontSize="20"
+                    fontStyle="normal"
+                    outlineSize="0 0"
+                    ></Text>
